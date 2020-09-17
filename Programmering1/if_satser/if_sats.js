@@ -1,22 +1,10 @@
-//modulusperator
-console.log(`${25%2}`);
 
-let tal= 25;
-
-//avgöra om talet är jämt eller udda 
-
-if(tal%2 === 0){
-    console.log("jämnt")
+let Ebiljett = 30;
+let Mbiljett = 775;
+let åke = prompt("Hur många gånger åker du?");
+let kostnad = Ebiljett*åke;
+if(kostnad<Mbiljett){
+    console.log(`Du behöver enkel biljet för att du åker sällan och det kostar ${kostnad}kr`);
 }else{
-    console.log("udda")
-}
-
-let tal1 = prompt("Ange ett tal: ")
-
-if(tal1 > 0){
-    console.log("positive")
-}else{ if(tal1 == 0){
-    console.log("talet är null")
-}else
-    console.log("negativ")
+    console.log(`Du ska ha Månadskort för att du åker ofta och det kostant är ${kostnad}kr`);
 }
