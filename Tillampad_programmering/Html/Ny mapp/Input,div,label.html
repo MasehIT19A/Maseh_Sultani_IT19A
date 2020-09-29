@@ -4,15 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style></style>
+    <style>
+        .header{
+            background-color: darkgray;
+            display: flex;
+            justify-content: center;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .fotter{
+            background-color: darkgray;
+            display: flex;
+            justify-content: center;
+            padding: 2%;
+            margin-top: 20%;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        .form{
+            background-color: darkgray ;
+           
+        }
+    </style>
 </head>
-<body>
-    <form action="mailto:thomas.fleen@ntig.se" method="get" enctype="text/plain">
+<body style="background: rgb(245, 119, 16);">
+    <div class="header">
+        <h1>HEADER</h1>
+    </div>
+
+    
+    <form action="mailto:thomas.fleen@ntig.se" method="get" enctype="text/plain" class="form">
         <h1> Galet formulär</h1>
         <p>Fyll i dina uppgifter i formulär</p>
         <hr>
             <div>
-                <table style="width: 130%">
+                <table style="width:190%">
                     <tr>
                         <td><label for="uzername">UzerName</label></td>
                         <td><input type="text" id="uzername" name="uzername"></td>
@@ -20,21 +46,24 @@
                 </table>
                 
             </div>
-            <div><table style="width:194%">
-                <tr>
-                    <td><label for="email">email:</label></td>
-                    <td><input type="email" id="email"  name="email"></td>
-                </tr>
-            </table>
-        </div>
+            <div><table style="width:190%">
+                    <tr>
+                        <td><label for="email">email:</label></td>
+                        <td><input type="email" id="email"  name="email"></td>
+                    </tr>
+                </table>
+            </div>
             <table style="width: 135%">
-            <tr><div>
-                <td><label for="pwd">Password:</label></td>
-                <td><input type="password" id="pwd" name="pwd"></td>
-            </tr></div>
-        </table>
+                <tr><div>
+                    <td><label for="pwd">Password:</label></td>
+                    <td><input type="password" id="pwd" name="pwd"></td>
+                </tr></div>
+            </table>
         <table>
             <tr><div>
+                <td>
+                    <label for="min">Min favoriteintressen</label>
+                </td>
                 <td>
                     <textarea rows="4" cols="40"></textarea>
                 </td>
@@ -47,13 +76,9 @@
                 <input  type="radio"    id="other"  name="gender"   value="other">
                 <label for="other">Other</label>
             </div>
-        
-            <div>
-                <input type="button" 
-            </div>
-           
-        
-        
     </form>
+    <div class="fotter">
+        <h1>FOOTER</h1>
+    </div>
 </body>
 </html>
