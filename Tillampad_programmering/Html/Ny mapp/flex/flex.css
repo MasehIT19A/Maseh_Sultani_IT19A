@@ -1,0 +1,46 @@
+header , article, nav, footer{
+    border: 1px blanchedalmond;
+    text-align: center;
+    margin: 5px;
+    background-color: blueviolet;
+  
+}
+header{
+    padding: 10px;
+}
+article{
+    flex: 4;
+
+}
+nav{
+    flex: 1;
+}
+footer{
+flex: 1;
+padding: 10px;
+}
+section{
+    display: flex;
+    margin: 0px;
+}
+@media only screen and (max-wigth: 660px) {
+    section{
+        flex-direction: column;
+    }
+}
+
+ul{
+    list-style-type: none;
+    padding: 0px;
+    width: 200px;
+
+}
+li a{
+    display: block;
+    color: crimson;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color:white;
+    text-decoration: none;
+
+}

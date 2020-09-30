@@ -3,6 +3,9 @@ let udda=document.querySelector(".udda");
 let lektioner=document.querySelector(".lektioner");
 
 
-for(let i=0; i<=100; i+2){
-    jämna.innerHTML += (`${i}`);
+for(let i=1; i<=100; i++){
+    if(i/2==0){
+        jämna.innerHTML += (`${i}`);
+    }
 }
+   
