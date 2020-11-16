@@ -4,9 +4,7 @@
 }
 
 header{
-    padding:;
     background-image: url("background.jpg");
-
     text-align: center;
     color: white;
    
@@ -16,41 +14,69 @@ header{
 }
 
 #titel{
-   padding:70px;
    flex:3;
 }
+#myschool_tittel{
+    text-align: center;
+}
+.p{
+    text-align: justify;
+    padding: 5px 300px 20px 300px;
+}
 #logobilden{
-    width:10%;
     display: block;
-    margin-top:;
-    margin:5%;
-    flex:1;
+    max-width: 8%;
+    margin:auto;
+    flex:0 200px;
+    padding:2%;
+    background-size: contain;
     
 }
 section{
-    display:;
-    margin: ;
+    display: block;
 }
 .wrapper {
     display:flex;
 }
+ul{
+    list-style-type: none;
+   }
+li a{
+    
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color:goldenrod;
+    text-decoration: none;
+}
 nav{
-    flex:;
     margin: 0; 
     padding: 10px;
-    display:;
     border: rgb(135, 250, 150);
-    background-color: magenta;
+    background-color:goldenrod;
 }
 article{
+    padding:100px;
     flex: 4;
     text-align: center;
-    background-color: maroon;
+    background-color:gray; 
+
+}
+.image{
+    width: 50%;
+  
+}
+.model{
+    height: 100%;
+    width: 100%;
+}
+.boxes{
+    display: flex;
 }
 footer{
-   
-    padding: 10px;
-    background-color: lime;
+    font-size: 2rem;
+    padding: 15px;
+    background-color:goldenrod;
     text-align: center;
 }
 @media only screen and (max-wigth: 660px) {
@@ -58,4 +84,8 @@ footer{
         flex-direction:;
     }
   
+}
+
+#profile_contin{
+   padding:20px
 }
