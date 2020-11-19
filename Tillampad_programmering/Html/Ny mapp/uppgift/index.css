@@ -89,3 +89,7 @@ footer{
 #profile_contin{
    padding:20px
 }
+
+.one:hover{
+    background-image: url("flex.jpj");
+}
