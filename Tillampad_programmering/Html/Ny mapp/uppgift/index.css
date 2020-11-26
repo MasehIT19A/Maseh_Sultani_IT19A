@@ -90,6 +90,11 @@ footer{
    padding:20px
 }
 
-.one:hover{
-    background-image: url("flex.jpj");
+#pp:hover{
+    color: burlywood;
+    background-image: url("background.jpg");
+}
+#img1:hover{
+    background-image: url("background.jpg");
+
 }
