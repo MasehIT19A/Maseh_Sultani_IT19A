@@ -16,7 +16,7 @@ let sex=0
 let sannolikhet=0
 
 while(count<=100){
-    let tärning=Math.floor(Math.random() * 9)
+    let tärning=Math.floor(Math.random() * 7)
     console.log(tärning)
     if(tärning==6){
         sex++
