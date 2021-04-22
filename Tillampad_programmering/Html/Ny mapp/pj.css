@@ -1,0 +1,19 @@
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+section{
+    background-color: darkkhaki;
+    text-align: center;
+    padding: 20%;
+}
+
+footer{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
